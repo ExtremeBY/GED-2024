@@ -1,0 +1,34 @@
+﻿Сборка начата 18.12.2024 3:50:13.
+Уровень детализации журнала: Normal.     1>Проект "C:\Users\renam\SOMETHING #1\GED-2024\GED_LIB\GED_LIB.vcxproj" в узле 2 (целевые объекты Rebuild).
+     1>PrepareForBuild:
+         Создание каталога "Debug\GED_LIB.tlog\".
+       InitializeBuildStatus:
+         Создание "Debug\GED_LIB.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+         Обращение к "Debug\GED_LIB.tlog\unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\bin\HostX86\x86\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"Debug\\" /Fd"C:\Users\renam\SOMETHING #1\GED-2024\Debug\GED_LIB.pdb" /external:W3 /Gd /TP /analyze- /FC /errorReport:prompt frame.h GED_LIB.cpp pch.cpp
+         frame.h
+         GED_LIB.cpp
+     1>C:\Users\renam\SOMETHING #1\GED-2024\GED_LIB\GED_LIB.cpp(11,16): warning C4244: инициализация: преобразование "double" в "long", возможна потеря данных
+         pch.cpp
+         Создание кода...
+       Lib:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\bin\HostX86\x86\Lib.exe /OUT:"C:\Users\renam\SOMETHING #1\GED-2024\Debug\GED_LIB.lib" /NOLOGO /MACHINE:X86 Debug\frame.obj
+         Debug\GED_LIB.obj
+         Debug\pch.obj
+         GED_LIB.vcxproj -> C:\Users\renam\SOMETHING #1\GED-2024\Debug\GED_LIB.lib
+       FinalizeBuildStatus:
+         Файл "Debug\GED_LIB.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "Debug\GED_LIB.tlog\GED_LIB.lastbuildstate".
+     1>Сборка проекта "C:\Users\renam\SOMETHING #1\GED-2024\GED_LIB\GED_LIB.vcxproj" завершена (целевые объекты Rebuild).
+
+Сборка успешно завершена.
+
+       "C:\Users\renam\SOMETHING #1\GED-2024\GED_LIB\GED_LIB.vcxproj" (целевой объект Rebuild ) (1) ->
+       (Целевой объект ClCompile) -> 
+         C:\Users\renam\SOMETHING #1\GED-2024\GED_LIB\GED_LIB.cpp(11,16): warning C4244: инициализация: преобразование "double" в "long", возможна потеря данных
+
+    Предупреждений: 1
+    Ошибок: 0
+
+Прошло времени 00:00:00.72
