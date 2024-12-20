@@ -12,7 +12,7 @@ int func expression(int a, int b){
 
 main{
  set int func step(int x, int y);
- set int func iabs(symb x);
+ set int func iabs(int x);
  set int a;
  set int b;
  set int c;
